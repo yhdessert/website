@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YH Dessert</title>
+    <link rel="stylesheet" href="updateMenuStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="Logo">Yh Dessert</div>
+        <ul>
+            <li><a href="http://localhost/STIX3923/Homepage.html">Home</a></li>
+            <li><a href="http://localhost/STIX3923/Menu.html">Menu</a></li>
+            <li><a href="http://localhost/STIX3923/About.html">About Us</a></li>
+            <li><a href="http://localhost/STIX3923/Contact.html">Contact Us</a></li>
+            <li><a href="http://localhost/STIX3923/FAQs.html">FAQs</a></li>
+            <li><a href="http://localhost/STIX3923/Homepage.html">Logout</a></li>
+        </ul> 
+     </nav>
+     <div class="container">
+        <h1>Update Menu</h1>
+		<div class="updateMenu">
+        <form action="updateMenu.py" method="post">
+		Photo : <INPUT type="file" name="Photo" accept="image/*" required placeholder><br><br>
+    	Name : <INPUT type="text" name="Name" required placeholder><br><br>
+        Price (RM) : <INPUT type="text" name="Price" required placeholder><br><br>
+		               
+               <button type="submit">Submit</button>            
+               <button type="cancel">Cancel</button>                   
+
+            
+        </form>
+		</div>
+     </div>
+    </body>
+    </html>
